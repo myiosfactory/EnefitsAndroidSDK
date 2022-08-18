@@ -13,12 +13,12 @@ We only show this once so if you lose this API Key, you’ll have to re-generate
 
 ##Run The Demo
 
-* To run a live demo, visit https://bajaar.beanstalkapp.com/enefits-mobile-sdk?ref=b-AndroidV1.0 and provide your own API key where requested.
+* To run a live demo, visit https://github.com/myiosfactory/EnefitsAndroidSDK and provide your own API key where requested.
 
 
 ##Download The SDK
 
-* The Enefits Android SDK can be downloaded from --> https://bajaar.beanstalkapp.com/enefits-mobile-sdk?ref=b-AndroidV1.0
+* The Enefits Android SDK can be downloaded from --> https://github.com/myiosfactory/EnefitsAndroidSDK
 
 
 ##Installation
@@ -42,21 +42,8 @@ dependencies {
     
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1'
 
-    // WalletConnect
-    implementation 'com.github.walletconnect:kotlin-walletconnect-lib:0.9.8'
-    
-    implementation 'com.github.komputing:khex:1.1.2'
+    implementation ('com.github.myiosfactory:EnefitsAndroidSDK:1.0') { transitive = true }
 
-    // JSON
-    implementation 'com.squareup.moshi:moshi-adapters:1.13.0'
-    
-    implementation 'com.squareup.moshi:moshi-kotlin:1.13.0'
-    
-    // Http
-    implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.3'
-    
-    implementation 'com.google.code.gson:gson:2.9.1'
-    
 }
 ```
 
