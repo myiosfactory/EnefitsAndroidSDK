@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">EnefitsSample</string>
+
+    <string name="step_1">Step 1. Initialize SDK</string>
+    <string name="step_2">Step 2. Connect to User Wallet</string>
+    <string name="step_3">Step 3. Get Offers for User</string>
+    <string name="step_4">Step 4. Disconnect from Wallet \n (Optional)</string>
+    <string name="step_5">Helper functions</string>
+    <string name="btn_1">Initialize SDK</string>
+    <string name="btn_2">Connect with Enefits</string>
+    <string name="btn_3">Get Offers for User</string>
+    <string name="btn_4">Disconnect</string>
+    <string name="btn_5">Is Init Complete?</string>
+    <string name="btn_6">Is Account Connected?</string>
+    <string name="btn_7">Get Connected Account</string>
+    <string name="btn_8">Get Chain Data</string>
+    <string name="api_key">API Key</string>
+
+
+</resources>

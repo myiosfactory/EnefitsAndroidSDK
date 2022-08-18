@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EnefitsSample</string>
+    <string name="view_coroutine_scope" translatable="false">view_coroutine_scope</string>
+</resources>
