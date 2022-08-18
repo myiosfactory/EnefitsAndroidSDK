@@ -65,6 +65,12 @@ dependencies {
 ##Initialize The SDK
 
 ```
+ /**
+  * Enefits SDK has initialize.
+  *
+  * @return boolean
+  */
+
  Enefits.instance.init(context, YOUR_API_KEY_HERE, YOUR_APP_NAME_HERE, sesssionCallback)
 ```
 
@@ -108,6 +114,12 @@ override fun onAppInstalledOrNot(isAppInstalled: Boolean) {
  * Enefits SDK will fire the callback onSessionConnected after successfully connecting with a blockchain account. If connection fails, the callback onSessionDisconnected will be fired. 
 
  ```
+ /**
+  * Connect to a blockchain account.
+  *
+  * @return boolean
+  */
+
  Enefits.instance.connectAccount()
  ```
 
