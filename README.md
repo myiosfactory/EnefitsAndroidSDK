@@ -26,9 +26,11 @@ We only show this once so if you lose this API Key, you’ll have to re-generate
 * Add the @jitpack repository to your gradle file
 
 ```
-repositories {
+allprojects {
+ repositories {
 	...
 	maven { url 'https://jitpack.io' }
+ }
 }
 ```
 
