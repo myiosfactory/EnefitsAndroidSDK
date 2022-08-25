@@ -13,12 +13,12 @@ We only show this once so if you lose this API Key, you’ll have to re-generate
 
 ##Run The Demo
 
-* To run a live demo, visit https://github.com/myiosfactory/EnefitsAndroidSDK and provide your own API key where requested.
+* To run a live demo, visit https://github.com/Enefits/android-sdk and provide your own API key where requested.
 
 
 ##Download The SDK
 
-* The Enefits Android SDK can be downloaded from --> https://github.com/myiosfactory/EnefitsAndroidSDK
+* The Enefits Android SDK can be downloaded from --> https://github.com/Enefits/android-sdk
 
 
 ##Installation
@@ -44,7 +44,7 @@ dependencies {
     
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1'
 
-    implementation ('com.github.myiosfactory:EnefitsAndroidSDK:1.0') { transitive = true }
+    implementation 'com.github.Enefits:android-sdk:1.0'
 
 }
 ```
